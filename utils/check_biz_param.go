@@ -2,8 +2,8 @@ package utils
 
 import (
 	"fmt"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/model"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/response"
+	"github.com/oldercn/restclient-go-sdk/model"
+	"github.com/oldercn/restclient-go-sdk/response"
 )
 
 func CheckCallRestBizParams(callRestBizParam model.CallRestBizParam) response.BaseResp {

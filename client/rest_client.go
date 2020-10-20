@@ -12,12 +12,12 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/client/config"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/model"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/mychain"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/mychain/mychain-sdk-go/common/codec/contract/abi"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/response"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/utils"
+	"github.com/oldercn/restclient-go-sdk/client/config"
+	"github.com/oldercn/restclient-go-sdk/model"
+	"github.com/oldercn/restclient-go-sdk/mychain"
+	"github.com/oldercn/restclient-go-sdk/mychain/mychain-sdk-go/common/codec/contract/abi"
+	"github.com/oldercn/restclient-go-sdk/response"
+	"github.com/oldercn/restclient-go-sdk/utils"
 )
 
 var (

@@ -3,8 +3,8 @@ package abi
 import (
 	"encoding/binary"
 	"fmt"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/mychain/mychain-sdk-go/common/codec"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/mychain/mychain-sdk-go/domain"
+	"github.com/oldercn/restclient-go-sdk/mychain/mychain-sdk-go/common/codec"
+	"github.com/oldercn/restclient-go-sdk/mychain/mychain-sdk-go/domain"
 	"math/big"
 	"reflect"
 )

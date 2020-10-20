@@ -1,7 +1,7 @@
 package contract
 
 import (
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/mychain/mychain-sdk-go/common/codec/contract/abi"
+	"github.com/oldercn/restclient-go-sdk/mychain/mychain-sdk-go/common/codec/contract/abi"
 )
 
 const (

@@ -1,8 +1,8 @@
 package abi
 
 import (
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/mychain/mychain-sdk-go/common/math"
-	"gitlab.alipay-inc.com/antchain/restclient-go-sdk/mychain/mychain-sdk-go/domain"
+	"github.com/oldercn/restclient-go-sdk/mychain/mychain-sdk-go/common/math"
+	"github.com/oldercn/restclient-go-sdk/mychain/mychain-sdk-go/domain"
 	"math/big"
 	"reflect"
 )
