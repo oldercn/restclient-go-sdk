@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/oldercn/restclient-go-sdk/client/config"
 	"github.com/oldercn/restclient-go-sdk/model"
 	"github.com/oldercn/restclient-go-sdk/mychain"
 	"github.com/oldercn/restclient-go-sdk/mychain/mychain-sdk-go/common/codec/contract/abi"
 	"github.com/oldercn/restclient-go-sdk/response"
 	"github.com/oldercn/restclient-go-sdk/utils"
+	log "github.com/sirupsen/logrus"
 )
 
 var (
@@ -415,7 +415,7 @@ func (client *RestClient) CallContract(bizid, orderId, account, tenantId, contra
 		BaseParam: model.BaseParam{
 			AccessId: client.RestClientProperties.AccessId,
 			BizId:    bizid,
-			Method:   model.CALLCONTRACTBIZ,
+			Method:   model.CALLCONTRACTBIZASYNC,
 		},
 		OrderId:            orderId,
 		Account:            account,
